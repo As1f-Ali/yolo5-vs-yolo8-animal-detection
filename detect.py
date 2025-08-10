@@ -12,7 +12,7 @@ custom_model_v8 = YOLO('yolo_model/GZbestv8.pt')  # YOLOv8 custom model
 name_model = YOLO('yolov8n.pt')
 
 # Interested animal classes
-INTERESTED_CLASSES = ["zebra", "giraffe", "pigeon"]
+INTERESTED_CLASSES = ["zebra", "giraffe"]
 
 # Real performance metrics (replace with dynamic eval if needed)
 ACCURACY_METRICS_V5 = {
